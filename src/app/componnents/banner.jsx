@@ -4,11 +4,11 @@ export default function Banner() {
    
   return (
     
-    <section className="w-screen h-screen flex items-center justify-center">
-        <div className="relative w-full h-full aspect-[5/3] bg-purple-500 ">
+    <section className="w-screen aspect-[5/3] flex items-center justify-center">
+        <div className="relative w-full aspect-[5/3] bg-purple-500 ">
           {/* Grid layer - positioned below the overlay */}
-          <div className="absolute inset-0 grid grid-cols-5 grid-rows-3 gap-4 items-center justify-center z-0">
-            <div id="grid-item-1" className="bg-red-500 h-10 w-10">
+          <div className="absolute inset-0 grid grid-cols-5 grid-rows-3 gap-4 z-0 h-full">
+            <div id="grid-item-1" className="bg-red-500 h-full w-full">
             </div>
             <div id="grid-item-2" className="bg-blue-500 h-10 w-10">
             </div>
