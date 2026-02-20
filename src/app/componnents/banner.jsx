@@ -7,7 +7,27 @@ export default function Banner() {
     <section className="w-screen aspect-[5/3] flex items-center justify-center">
         <div className="relative w-full aspect-[5/3] bg-purple-500 ">
           {/* Grid layer - positioned below the overlay */}
-          <div className="absolute inset-0 grid grid-rows-3 gap-0 z-0 h-full p-0 m-0" style={{ gridTemplateColumns: '18% 18% 21% 19% 23%' }}>
+          <div className="absolute inset-0 grid grid-rows-3 gap-2 z-0 h-full p-0 m-0" style={{ gridTemplateColumns: '18% 18% 21% 19% 23%' }}>
+            <div id="grid-item-1" className="bg-red-500 h-[98%] w-[98%] self-center justify-self-center rounded-4xl overflow-hidden">
+            </div>
+            <div id="grid-item-2" className="bg-blue-500  h-[98%] w-full self-center justify-self-center rounded-4xl overflow-hidden">
+            </div>
+            <div id="grid-item-3" className="bg-green-500  h-[98%] w-full self-center justify-self-center rounded-4xl overflow-hidden">
+            </div>
+            <div id="grid-item-4" className="bg-red-500  h-[98%] w-full self-center justify-self-center rounded-4xl overflow-hidden">
+            </div>
+            <div id="grid-item-5" className="bg-blue-500  h-[98%] w-[94%] self-center justify-self-start rounded-4xl overflow-hidden">
+            </div>
+            <div id="grid-item-1" className="bg-red-500 h-full w-full">
+            </div>
+            <div id="grid-item-2" className="bg-blue-500 h-full w-full">
+            </div>
+            <div id="grid-item-3" className="bg-green-500 h-full w-full">
+            </div>
+            <div id="grid-item-4" className="bg-red-500 h-full w-full">
+            </div>
+            <div id="grid-item-5" className="bg-blue-500 h-full w-full">
+            </div>
             <div id="grid-item-1" className="bg-red-500 h-full w-full">
             </div>
             <div id="grid-item-2" className="bg-blue-500 h-full w-full">
