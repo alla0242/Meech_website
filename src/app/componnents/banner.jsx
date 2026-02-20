@@ -37,7 +37,8 @@ export default function Banner() {
             </div>
             <div id="grid-item-3" className="bg-green-500  h-[98%] w-[98%] self-start justify-self-start rounded-4xl overflow-hidden">
             </div>
-            <div id="grid-item-4" className="bg-red-500  h-[98%] w-full self-start justify-self-center rounded-4xl overflow-hidden">
+            <div id="grid-item-4" className="bg-red-500  h-[98%] w-full self-start justify-self-center rounded-4xl overflow-hidden relative">
+              <Image src="/scanline_overlay.jpg" alt="scanline overlay" fill className="object-cover object-center opacity-25 bg-blend-darken-50" />
             </div>
                         <div id="grid-item-5" className="bg-blue-500  h-[98%] w-[98%] self-start justify-self-start rounded-4xl overflow-hidden">
 
